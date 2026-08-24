@@ -2,3 +2,20 @@
 .md-typeset p {
   white-space: pre-line;
 }
+/* 縮小頂部導覽列 Logo 的右側間距，讓標題往左靠攏 */
+.md-header__button.md-logo {
+  margin-right: 0.2rem !important; /* 預設間距較大，縮小至貼近文字 */
+  padding: 0.2rem !important;
+}
+
+/* 微調標題文字的內縮 */
+.md-header__topic {
+  margin-left: 0.2rem !important;
+}
+
+/* 確保 Logo 圖片垂直置中並適應高度 */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.6rem;
+  width: auto;
+}
