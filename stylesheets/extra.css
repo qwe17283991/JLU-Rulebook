@@ -19,3 +19,11 @@
   height: 1.6rem;
   width: auto;
 }
+/* 自訂 H5 標題大小與顏色，避免字體過小 */
+.md-typeset h5 {
+  font-size: 1.05rem !important;  /* 調整為略大於內文 */
+  font-weight: 700 !important;   /* 加粗 */
+  color: var(--md-primary-fg-color) !important; /* 使用網站主題色 */
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
