@@ -45,4 +45,7 @@ plugins:
       lang: zh
       
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - nl2br
