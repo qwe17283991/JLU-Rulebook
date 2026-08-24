@@ -43,3 +43,6 @@ nav:
 plugins:
   - search:
       lang: zh
+      
+markdown_extensions:
+  - nl2br
