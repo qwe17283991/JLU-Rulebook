@@ -2,6 +2,8 @@ site_name: JLU 規則書
 
 theme:
   name: material
+  logo: assets/logo.png      # 網頁左上角的 Logo
+  favicon: assets/logo.png   # 瀏覽器分頁的小圖標
   language: zh-TW # 設定語言為繁體中文，搜尋功能對中文支援會更好
   features:
     - navigation.tabs # 在畫面上方加入導航頁籤
@@ -49,6 +51,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - nl2br
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   
 extra_css:
   - stylesheets/extra.css
