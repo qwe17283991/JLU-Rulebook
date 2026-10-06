@@ -1,4 +1,12 @@
-﻿# 《DC Justice League Unlimited RPG — Quickstart》專有名詞對應表
+# 《DC Justice League Unlimited RPG — Quickstart》專有名詞對應表 v2
+
+**已定案基準**：Issue＝期｜Resolve＝決心值｜Condition＝傷勢／Status＝狀態｜Tier＝位階／Grade＝等級｜Potency＝力量｜PAX 保留原文｜Meta-Human＝超人類｜Eradicator＝殲滅者｜Parasite＝寄生魔
+
+**體例**：專有名詞首次出現時以「中文（English）」並列，之後只用中文。數據行內的高頻縮寫（PAX、DR、G1／G2、d20）一律保留原文，避免角色卡變得難以掃視。招式與能力名稱走**有戲感**路線，規則術語走**平實好查**路線。
+
+✎ ＝ 我自行拍板，可直接覆蓋。
+
+---
 
 ## 1. 核心框架
 
@@ -113,16 +121,16 @@
 | — Prep Time | 事前準備 |
 | **Genius** | **天才** |
 | — Overthinking | 想太多 |
-| — Checkmate | 將軍 |
+| — Checkmate | 將死 |
 | — It's Trivial! | 小事一樁！ |
 | — Technological Knowledge | 科技學識 |
 | — Blabblalogy | 落落長學 ✎（原文為生造詞，中文亦造詞對應） |
 | **Enraged** | **狂怒者** |
 | — Collateral Damage | 附帶損害 |
-| — Everything in the Ring | 擂台上見真章 |
-| — Chain Breaker | 破鎖者 |
-| — Red with Rage | 怒紅之眼 |
-| — Cardboard World | 紙板世界 |
+| — Everything in the Ring | 困獸之鬥 |
+| — Chain Breaker | 破鏈者 |
+| — Red with Rage | 怒火中燒 |
+| — Cardboard World | 紙糊的世界 |
 
 ## 6. 能力
 
@@ -403,4 +411,3 @@
 | designation "Henshaw" | 代號「亨蕭」 |
 | How the Adventure Ends | 冒險的結局 |
 | An Epilogue and an Invitation | 尾聲與邀請 |
-
