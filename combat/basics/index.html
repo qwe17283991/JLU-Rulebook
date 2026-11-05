@@ -1,0 +1,2382 @@
+
+<!doctype html>
+<html lang="zh-TW" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="JLU 檢定與戰鬥基礎：d20 擲骰、緊張度、優勢劣勢、對抗檢定與傷害、決心值規則。">
+      
+      
+      
+        <link rel="canonical" href="https://jlurulebook.com/combat/basics/">
+      
+      
+        <link rel="prev" href="../../abilities/equipment/">
+      
+      
+        <link rel="next" href="../actions/">
+      
+      
+        
+          <link rel="alternate" href="./" hreflang="zh-TW">
+        
+          <link rel="alternate" href="../../en/combat/basics/" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>檢定與戰鬥基礎 - JLU 規則書｜DC 超級英雄 TRPG 中文規則</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans TC";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/comic.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/hero-sheet.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <meta name="keywords" content="JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 檢定, 戰鬥規則, d20, 緊張度, 優勢, 劣勢, 對抗檢定, 傷害, 防禦">
+  
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="JLU 規則書｜DC 超級英雄 TRPG 中文規則">
+  <meta property="og:title" content="檢定與戰鬥基礎 | JLU 規則書｜DC 超級英雄 TRPG 中文規則">
+  <meta property="og:description" content="JLU 檢定與戰鬥基礎：d20 擲骰、緊張度、優勢劣勢、對抗檢定與傷害、決心值規則。">
+  <meta property="og:url" content="https://jlurulebook.com/combat/basics/">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:image" content="https://jlurulebook.com/assets/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="JLU 規則書：DC 超級英雄 TRPG 中文規則">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="檢定與戰鬥基礎 | JLU 規則書｜DC 超級英雄 TRPG 中文規則">
+  <meta name="twitter:description" content="JLU 檢定與戰鬥基礎：d20 擲骰、緊張度、優勢劣勢、對抗檢定與傷害、決心值規則。">
+  <meta name="twitter:image" content="https://jlurulebook.com/assets/social-card.png">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "about": {"@type": "Game", "name": "Justice League Unlimited RPG"}, "description": "JLU \u6aa2\u5b9a\u8207\u6230\u9b25\u57fa\u790e\uff1ad20 \u64f2\u9ab0\u3001\u7dca\u5f35\u5ea6\u3001\u512a\u52e2\u52a3\u52e2\u3001\u5c0d\u6297\u6aa2\u5b9a\u8207\u50b7\u5bb3\u3001\u6c7a\u5fc3\u503c\u898f\u5247\u3002", "image": "https://jlurulebook.com/assets/social-card.png", "inLanguage": "zh-Hant-TW", "isPartOf": {"@type": "WebSite", "name": "JLU \u898f\u5247\u66f8\uff5cDC \u8d85\u7d1a\u82f1\u96c4 TRPG \u4e2d\u6587\u898f\u5247", "url": "https://jlurulebook.com/"}, "keywords": "JLU, \u6b63\u7fa9\u806f\u76df\u7121\u9650, Justice League Unlimited RPG, DC, \u8d85\u7d1a\u82f1\u96c4, TRPG, \u8dd1\u5718, \u684c\u4e0a\u89d2\u8272\u626e\u6f14\u904a\u6232, \u898f\u5247\u66f8, \u4e2d\u6587\u7ffb\u8b6f, \u6aa2\u5b9a, \u6230\u9b25\u898f\u5247, d20, \u7dca\u5f35\u5ea6, \u512a\u52e2, \u52a3\u52e2, \u5c0d\u6297\u6aa2\u5b9a, \u50b7\u5bb3, \u9632\u79a6", "name": "\u6aa2\u5b9a\u8207\u6230\u9b25\u57fa\u790e | JLU \u898f\u5247\u66f8\uff5cDC \u8d85\u7d1a\u82f1\u96c4 TRPG \u4e2d\u6587\u898f\u5247", "url": "https://jlurulebook.com/combat/basics/"}</script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳轉到
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="頁首">
+    <a href="../.." title="JLU 規則書｜DC 超級英雄 TRPG 中文規則" class="md-header__button md-logo" aria-label="JLU 規則書｜DC 超級英雄 TRPG 中文規則" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            JLU 規則書｜DC 超級英雄 TRPG 中文規則
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              檢定與戰鬥基礎
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="切換至深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切換至深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="切換至淺色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切換至淺色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="選擇語言">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="zh-TW" class="md-select__link">
+              中文
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../en/combat/basics/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜尋" placeholder="搜尋" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="搜尋">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清除" aria-label="清除" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜尋引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="標籤" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  首頁
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../intro/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  導論與核心概念
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../story-points/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  劇情點與編輯點與危機骰
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../character/rank-pax-attributes/" class="md-tabs__link">
+          
+  
+  
+  角色創建
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../traits/knowledge/" class="md-tabs__link">
+          
+  
+  
+  知識、特質與限制
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../abilities/overview/" class="md-tabs__link">
+          
+  
+  
+  能力與裝備
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+  戰鬥與判定
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../threats-villains/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  威脅與反派
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../glossary/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  專有名詞對應表
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../hero-sheet/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  線上英雄卡
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="導覽列" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="JLU 規則書｜DC 超級英雄 TRPG 中文規則" class="md-nav__button md-logo" aria-label="JLU 規則書｜DC 超級英雄 TRPG 中文規則" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    JLU 規則書｜DC 超級英雄 TRPG 中文規則
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首頁
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    導論與核心概念
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../story-points/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    劇情點與編輯點與危機骰
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    角色創建
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    角色創建
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/rank-pax-attributes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    位階、PAX與屬性
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/origins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    出身
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character/archetypes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    原型
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    知識、特質與限制
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    知識、特質與限制
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../traits/knowledge/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    知識
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../traits/qualities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    特質
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../traits/limitations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    限制
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    能力與裝備
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    能力與裝備
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abilities/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    能力總則
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abilities/martial-arts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    武術訓練
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abilities/powers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    超能力
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abilities/technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    科技
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../abilities/equipment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    裝備
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    戰鬥與判定
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    戰鬥與判定
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    檢定與戰鬥基礎
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    檢定與戰鬥基礎
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目錄
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rolling-the-dice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        擲骰（ROLLING THE DICE）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="擲骰（ROLLING THE DICE）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        優勢
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        劣勢
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        提升一階
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        動作
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tension" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        緊張度（TENSION）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="緊張度（TENSION）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        難度等級
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        檢定（TESTS）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opposed-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        對抗檢定（OPPOSED TEST）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        戰鬥（COMBAT）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="戰鬥（COMBAT）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        戰鬥的階段
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="戰鬥的階段">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        先攻
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        鼓舞
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        戰術
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        回合
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        輪
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        戰鬥的基本資源
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="戰鬥的基本資源">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        決心值
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        攻擊
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        防禦
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        使用防禦
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        主動防禦
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        主動防禦
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        傷害
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        傷害類型
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        傷勢（CONDITIONS）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="傷勢（CONDITIONS）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        標記傷勢
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        傷勢軌
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        在沒有決心值的情況下戰鬥
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../actions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    狀態、移動與戰鬥動作
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../threats-villains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    威脅與反派
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    專有名詞對應表
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hero-sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    線上英雄卡
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目錄
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rolling-the-dice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        擲骰（ROLLING THE DICE）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="擲骰（ROLLING THE DICE）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        優勢
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        劣勢
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        提升一階
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        動作
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tension" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        緊張度（TENSION）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="緊張度（TENSION）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        難度等級
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        檢定（TESTS）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opposed-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        對抗檢定（OPPOSED TEST）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        戰鬥（COMBAT）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="戰鬥（COMBAT）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        戰鬥的階段
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="戰鬥的階段">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        先攻
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        鼓舞
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        戰術
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        回合
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        輪
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        戰鬥的基本資源
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="戰鬥的基本資源">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        決心值
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        攻擊
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        防禦
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        使用防禦
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        主動防禦
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        主動防禦
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        傷害
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        傷害類型
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        傷勢（CONDITIONS）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="傷勢（CONDITIONS）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        標記傷勢
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        傷勢軌
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        在沒有決心值的情況下戰鬥
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">檢定與戰鬥基礎<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="rolling-the-dice">擲骰（ROLLING THE DICE）<a class="headerlink" href="#rolling-the-dice" title="Permanent link">&para;</a></h2>
+<p><strong>JLU RPG</strong> 中主宰所有不確定時刻的核心機制，就是擲一顆<strong>二十面骰（d20）</strong>。每當一位英雄嘗試某個結果不明的行動時，他就必須進行一次檢定。公式很簡單：</p>
+<blockquote>
+<p><strong>檢定結果 ＝ 1d20 ＋ 相關屬性 ＋ 其他加值（能力、招式、裝備等）</strong></p>
+</blockquote>
+<p>這個結果接著會與主編所設定的目標值比較，該目標值稱為<strong>緊張度</strong>。給玩家的一項重要提醒：玩家永遠不主動要求進行檢定；玩家提出的是一套行動方案，再由主編決定合適的檢定與屬性。</p>
+<h6 id="_2">優勢<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h6>
+<p>某些招式或有利的情境可能賦予角色<strong>優勢</strong>。發生時，玩家擲<strong>兩顆骰子</strong>（檢定用 d20，攻擊則用傷害骰），並採用<strong>較佳的結果</strong>。若英雄因某些原因獲得超過一項優勢，擲骰數量不會增加，而是每多一項優勢就獲得 +2 加值。<strong>優勢</strong>與<strong>劣勢</strong>互相抵銷。</p>
+<h6 id="_3">劣勢<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h6>
+<p>與優勢相似，某些不利的情境會讓英雄的處境變得棘手。發生時，他承受<strong>劣勢</strong>：玩家擲<strong>兩顆骰子</strong>，並採用<strong>較差的結果</strong>。</p>
+<h6 id="_4">提升一階<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h6>
+<p>某些招式讓你能將<strong>位階骰</strong>提升一階。這麼做時，依下列順序進行。將骰子提升到超過 <strong>d12</strong> 時，代表擲一顆<strong>帶優勢的 d12</strong>。</p>
+<blockquote>
+<p><strong>d6 → d8 → d12</strong></p>
+</blockquote>
+<h6 id="_5">動作<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h6>
+<p>《正義聯盟無限》是一款圍繞<strong>動作</strong>建構起來的遊戲：整場遊戲中，角色會執行大量的動作。迅速飛去拯救陷入險境的無辜者、對正在恐嚇城市的反派補上最後一擊、安撫暴動的群眾，以及其他種種努力，全都是動作的例子。你可以把它想成一個微小的起因，在遊戲情境中產生出敘事上的結果。</p>
+<p>動作被廣泛運用於<strong>戰鬥、救援場景、社交互動</strong>與<strong>環境挑戰</strong>⋯⋯這份清單幾乎沒有盡頭。在遊戲進行的每一刻，英雄（與反派）都在執行動作。</p>
+<hr />
+<h2 id="tension">緊張度（TENSION）<a class="headerlink" href="#tension" title="Permanent link">&para;</a></h2>
+<p><strong>緊張度</strong>是主編用來界定遊戲中任何情境難度的主要工具。它是一個數值，代表某項任務的危險程度與複雜程度。緊張度數值的最終決定權永遠屬於<strong>主編</strong>，主編可依各種敘事因素加以調整。</p>
+<h6 id="_6">難度等級<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h6>
+<p>在《正義聯盟無限 RPG》中，以<strong>位階</strong>進行的區分，讓這款遊戲得以涵蓋各種與漫畫故事中不同力量層級相稱的挑戰。當一群<strong>元年英雄</strong>在外星入侵期間應付街頭的混亂時，<strong>世界最佳組合</strong>正直接面對那位星際征服者。正因如此，<strong>難度等級</strong>（<strong>例行</strong>、<strong>有挑戰</strong>、<strong>困難</strong>、<strong>英勇</strong>、<strong>不可能</strong>）的數值都經過計算，以更貼合各個位階。</p>
+<p><strong>例行</strong>：對應位階的英雄應該能夠相當輕鬆完成的任務，不過仍有失敗的可能。<br />
+<em>位階 D 範例（緊張度 12）</em>：阻止一夥普通竊賊搶劫提款機。</p>
+<p><strong>有挑戰</strong>：英雄生活的標準值。代表一項需要付出努力、且存在實質風險與變數的任務。<br />
+<em>位階 C 範例（緊張度 17）</em>：阻止墜落的瓦礫砸中繁忙街道上的平民。</p>
+<p><strong>困難</strong>：一項很可能需要規劃、團隊合作或聰明運用能力的任務。在此失敗會帶來嚴重後果。<br />
+<em>位階 C 範例（緊張度 20）</em>：拼湊出謎語人這類連續犯罪者所留下的線索。</p>
+<table>
+<thead>
+<tr>
+<th><strong>緊張度</strong></th>
+<th><strong>位階 D</strong></th>
+<th><strong>位階 C</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>例行</td>
+<td>12</td>
+<td>15</td>
+</tr>
+<tr>
+<td>有挑戰</td>
+<td>15</td>
+<td>18</td>
+</tr>
+<tr>
+<td>困難</td>
+<td>18</td>
+<td>21</td>
+</tr>
+<tr>
+<td>英勇</td>
+<td>21</td>
+<td>25</td>
+</tr>
+<tr>
+<td>不可能</td>
+<td>26+</td>
+<td>28+</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="tests">檢定（TESTS）<a class="headerlink" href="#tests" title="Permanent link">&para;</a></h2>
+<p>每當一項行動的結果存在不確定性時，就會發生一次檢定；此時擲骰，並與主編設定的<strong>緊張度</strong>比較，以解決該不確定性。</p>
+<p><strong>成功！</strong>：當英雄取得等於或高於緊張度的數值時，他達成成功。</p>
+<p><strong>關鍵成功：跨頁大格！</strong>：你知道那種由你喜愛的畫師所繪、以整整跨頁呈現的驚人漫畫場面嗎？在這裡的運作方式一模一樣。當英雄超出緊張度 <strong>15 以上</strong>，或在 d20 上擲出<strong>天生 20</strong>（也就是骰面本身為 20，不計任何加值）時，就發生一次<strong>跨頁大格</strong>。這是一個史詩般的瞬間，會出現所有可能結果中最好的那一個。</p>
+<p><strong>失敗</strong>：當英雄取得低於緊張度的結果時，就是失敗。主編會描述：就在極速者即將抓住反派的那一刻，對方在最後一瞬逃脫，傳送門隨即關閉。</p>
+<p><strong>關鍵失敗：編輯刪修！</strong>：當英雄的結果低於緊張度達 <strong>15 以上</strong>，或在 d20 上擲出天生 1 時，就發生一次<strong>關鍵失敗</strong>。英雄不只是檢定失敗，而是最糟的情況降臨了。主編會敘述這場災難如何展開：也許試圖撐住那輛從橋上墜落的卡車並不如預期順利，現在這位亞馬遜人正被一起拖著往下墜！她要怎麼脫身？</p>
+<p><strong>千鈞一髮！</strong>：當英雄未能達到緊張度，但選擇消耗<strong>決心值</strong>時，他可以花費決心值來提高檢定結果。每消耗 1 點決心值，結果提高 1。<strong>千鈞一髮！</strong>不能用於<strong>編輯刪修</strong>。</p>
+<hr />
+<h2 id="opposed-test">對抗檢定（OPPOSED TEST）<a class="headerlink" href="#opposed-test" title="Permanent link">&para;</a></h2>
+<p>當兩股力量正面衝突時——例如兩名極速者的環球競速、地表最強者之間的腕力比賽，或是天才與量子超級電腦的一盤棋——就進行一次<strong>對抗檢定</strong>。在對抗檢定中，雙方各以相關屬性進行一次檢定，結果較高者贏得這場較量。若平手，則必須重新檢定一次。</p>
+<div class="admonition note">
+<p>請注意：<strong>對抗檢定</strong>並非對抗<strong>緊張度</strong>，而是對抗另一方的結果，因此那些使用或依賴緊張度的效果無法在此使用。</p>
+</div>
+<hr />
+<h2 id="combat">戰鬥（COMBAT）<a class="headerlink" href="#combat" title="Permanent link">&para;</a></h2>
+<p>有時候，英雄的工作免不了要動手打一架——畢竟，總有些敵人不是光靠嘴巴就能說服的。<strong>JLU RPG</strong> 的戰鬥被設計得快速、動感而具有電影感，同時又帶有一點戰術性。運用 <strong>3 動作</strong>機制，英雄們將擬定策略、實行奇招，並痛扁一大票惡棍的屁股。</p>
+<h3 id="_7">戰鬥的階段<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<h6 id="_8">先攻<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h6>
+<p>當衝突開始時，所有參與者比較各自的敏捷數值，以決定誰先行動。回合順序由高至低排定。若平手，平手雙方必須進行一次敏捷檢定，勝者排在敗者之前。</p>
+<p><strong>提升先攻</strong>：角色可以壓榨自己的極限來提升先攻順位：每消耗 1 點決心值，在先攻階段獲得 +1。</p>
+<h6 id="_9">鼓舞<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h6>
+<p><strong>啟動：</strong> 1 個動作</p>
+<p>某些英雄天生帶有一股領袖氣場，讓身邊的人充滿希望與決心。透過這個動作，英雄可以鼓舞同伴，推著他們突破自己的極限。要使用這個動作，該英雄的<strong>精神</strong>必須高於目標的精神數值。同一時間，一個目標只能受到鼓舞的其中一項效果影響。</p>
+<p>每輪一次，選擇一位看得見或聽得到你的同伴，並針對主編設定的緊張度進行一次精神檢定。成功時，選擇下列其一：</p>
+<p><strong>你辦得到！</strong>：目標的下一次<strong>英勇行動</strong>獲得優勢。</p>
+<p><strong>別放棄！</strong>：只要目標正面對的威脅位階高於他自己，他的下一次攻擊、格擋或閃避獲得等同於你精神數值的加值。</p>
+<p><strong>英雄永不放棄！</strong>：你可以消耗 1 點決心值，賦予目標 1 點決心值；每個場景中透過此方式給予的決心值總量，上限等同於你的精神數值。</p>
+<h6 id="_10">戰術<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h6>
+<p><strong>啟動：</strong> 1 個動作</p>
+<p>透過這個動作，英雄可以向同伴與平民高聲下達命令與指示，宛如一位真正的指揮官，並賦予他們戰術上的優勢。要使用這個動作，該英雄的<strong>心智</strong>屬性必須高於目標的心智。同一時間，一個目標只能受到一項戰術效果影響。</p>
+<p>每輪一次，選擇一位聽得到你的同伴，並針對主編設定的緊張度進行一次心智檢定。成功時，選擇下列其一：</p>
+<p><strong>看你左邊！</strong>：目標的下一次閃避獲得等同於你心智的加值。</p>
+<p><strong>上！</strong>：在戰鬥開始之前，目標的先攻提升一個數值，等同於你心智的一半。</p>
+<p><strong>攻擊！</strong>：目標的下一次攻擊獲得等同於你心智的加值，但上限為你的位階 +3。</p>
+<p><strong>守住防線！</strong>：面對下一次以他為目標的攻擊時，目標獲得等同於你心智數值一半的減傷。</p>
+<p><strong>衝衝衝！</strong>：目標獲得一個額外的移動動作，必須在他的下一個回合使用。</p>
+<p><strong>專心！</strong>：目標下一次為了抵抗有害效果（例如某個狀態效果）而進行的對抗檢定獲得優勢。「專心！」可以當作反應使用。</p>
+<p><strong>準備承受衝擊！</strong>：目標的下一次格擋獲得等同於你心智數值一半的加值。</p>
+<h6 id="_11">回合<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h6>
+<p>回合是英雄必須行動的時刻。在一個回合中，角色擁有 <strong>3 個動作</strong>。當所有動作都用完，或該參與者宣告回合結束時，回合即告結束。</p>
+<h6 id="_12">輪<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h6>
+<p>當衝突中所有參與者都解決完各自的回合後，這一<strong>輪</strong>就結束了。接著依照相同的先攻順序，展開新的一輪。</p>
+<p>以上三個步驟構成戰鬥的基本流程，反覆進行直到衝突結束為止。</p>
+<hr />
+<h3 id="_13">戰鬥的基本資源<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<p>理解角色在戰鬥中擁有哪些資源是必要的：<strong>決心值</strong>如何運用、<strong>傷害</strong>如何運作，以及<strong>攻擊</strong>與<strong>防禦</strong>的動態關係，都是遊戲推進的根本。</p>
+<h6 id="_14">決心值<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h6>
+<p>運用這項資源可以啟動能力與其他招式，它同時也是對抗傷害的第一道防線。用其他遊戲的常見語彙來說，你可以把決心值同時想成你的「生命」與「魔力」——但即便如此，就算它耗盡了，角色仍然可以繼續行動。它是一種必須策略性運用的續戰力。當決心值耗盡時，英雄必須標記一格<strong>傷勢</strong>。（詳見本節稍後的<strong>傷勢</strong>。）</p>
+<h6 id="_15">攻擊<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h6>
+<p>指的是拳擊、射擊、劈砍，以及其他一切。要發動一次攻擊，擲 <strong>1d20 ＋ 精準</strong>，並與目標的<strong>防禦</strong>比較。若結果較高，攻擊即命中。更多細節請見<strong>戰鬥動作</strong>。</p>
+<h6 id="_16">防禦<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h6>
+<p>防禦是角色的防護，以及他避免被命中的能耐。別只把它想成英雄的皮膚或戰服有多硬；把它想像成環繞在他們周身所形成的一層防護氣場。一名街頭混混想要穩住手不發抖、瞄準<strong>蝙蝠俠</strong>開槍，會比他射擊一名菜鳥義警困難得多。</p>
+<table>
+<thead>
+<tr>
+<th><strong>位階</strong></th>
+<th><strong>防禦數值</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E</td>
+<td>12</td>
+</tr>
+<tr>
+<td>D</td>
+<td>15</td>
+</tr>
+<tr>
+<td>C</td>
+<td>18</td>
+</tr>
+</tbody>
+</table>
+<p><strong>防禦數值</strong>：英雄的防禦等同於其位階所提供的基礎數值。</p>
+<h6 id="_17">使用防禦<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h6>
+<p>在戰鬥中，當你成為一次攻擊的目標時就會用到防禦，它是攻擊者必須達到才能命中你的基本數值。某些屬性可以加到<strong>基礎防禦數值</strong>上，以提高你面對來襲攻擊時的防禦：<strong>敏捷、耐力、精神</strong>與<strong>心智</strong>都可以用來抵禦各種不同類型的效果。</p>
+<h6 id="_18">主動防禦<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h6>
+<p>一位稱得上英雄的英雄，隨時都該準備好回應任何朝他丟來、射來、砸來或施放而來的東西；這就是<strong>主動防禦</strong>登場的地方。透過它，你可以將自己的一項<strong>屬性</strong>加到<strong>基礎防禦</strong>上。</p>
+<h4 id="_19">主動防禦<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h4>
+<p><strong>啟動：</strong> 反應</p>
+<p>使用<strong>主動防禦</strong>時，你為即將承受的攻擊做好準備。從下列效果中擇一，並在下一次以你為目標的攻擊動作結束前持續獲得其效果。一個角色同一時間只能擁有<strong>一項主動防禦</strong>。這項防禦可以用免費動作解除。</p>
+<p><strong>閃避</strong>：閃避是為了讓身體避開一次攻擊，將<strong>敏捷</strong>加到<strong>防禦數值</strong>上。</p>
+<p><strong>格擋</strong>：格擋運用<strong>耐力</strong>去承受造成物理傷害的打擊衝力，將<strong>耐力</strong>加到防禦上。</p>
+<hr />
+<h3 id="_20">傷害<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
+<p>傷害代表角色在戰鬥中造成（以及承受）的損傷與破壞。每當一次攻擊命中時，它便直接對目標的<strong>決心值</strong>造成傷害。原則上，角色的基礎傷害等同於其<strong>位階傷害骰 ＋ 所指定的屬性</strong>。</p>
+<h3 id="_21">傷害類型<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h3>
+<p>本遊戲將不同的傷害類型分為<strong>四大類</strong>，它們在戰鬥中與能力、招式及其他效果的互動方式各不相同：<strong>物理</strong>、<strong>能量</strong>、<strong>魔法</strong>與<strong>心靈</strong>。</p>
+<p>這些分類是傘狀概念，把許多不同種類的攻擊歸納在同一個標籤底下。即便如此，仍可能有某些招式無法完全歸入其中任何一類；在那種情況下，由<strong>主編</strong>做最終裁決。</p>
+<p><strong>物理</strong>：最常見的傷害類型，由打擊、近戰武器與投射物造成。這種傷害通常與<strong>力量</strong>連結。</p>
+<p><strong>能量</strong>：能量傷害包含純粹的能量來源或自然之力，例如元素、能量衝擊、光與影。這種傷害通常與<strong>力量</strong>或<strong>精神</strong>連結。</p>
+<p><strong>魔法</strong>：這種傷害源自魔法來源，例如咒法或神器。魔法傷害以<strong>精神</strong>作為其屬性。</p>
+<p><strong>心靈</strong>：心靈傷害源自運用精神力量的來源，例如念力、心電感應與幻象操控。與這種傷害連結的屬性是<strong>心智</strong>。</p>
+<hr />
+<h2 id="conditions">傷勢（CONDITIONS）<a class="headerlink" href="#conditions" title="Permanent link">&para;</a></h2>
+<p>傷勢是遊戲過程中可能施加於英雄身上的危險狀態。傷勢從「<strong>擦傷</strong>」開始，到「<strong>敗北</strong>」結束。⚠️ 每當英雄標記一格傷勢，他就離敗北更近一步。</p>
+<h3 id="_22">標記傷勢<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
+<p>一般而言，傷勢是在承受大量傷害時標記的：也許那道能量衝擊擊碎了你的鬥志，又或者那記交叉拳打得你喘不過氣。標記傷勢有以下幾種方式：</p>
+<p><strong>選擇標記</strong>：當角色承受至少 <strong>10 點傷害</strong>時，他可以標記一格<strong>傷勢</strong>，讓自己的<strong>決心值</strong>保持不變，直接把傷害吸收掉。即便如此，超過那被抵銷掉的 10 點以外的所有溢出傷害，仍然要從英雄的決心值中扣除。</p>
+<div class="admonition example">
+<p><strong>範例</strong>：若一位英雄承受某反派造成的 <strong>13 點傷害</strong>，他可以標記一格傷勢，讓決心值只承受 <strong>3 點</strong>。在另一種情況下，同一位英雄承受了 <strong>20 點傷害</strong>，但這次他選擇標記<strong>兩格傷勢</strong>，每一格吸收 <strong>10 點傷害</strong>。由於沒有溢出傷害，他的決心值保持不變。</p>
+</div>
+<h3 id="_23">傷勢軌<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h3>
+<p>傷勢有固定順序，不能隨意標記。由輕至重依序為：<strong>疲憊、擦傷、受傷、重傷、敗北</strong>。角色若沒有先標記「<strong>疲憊</strong>」，就不能標記「<strong>擦傷</strong>」，依此類推。某些能力會賦予額外的傷勢格，這些額外格必須計入<strong>擦傷</strong>之前，同時維持整條軌道的順序。</p>
+<p><strong>疲憊</strong>：戰鬥拖得太久了，你開始喘不過氣。</p>
+<p><strong>擦傷</strong>：只是擦破皮而已，油箱裡還有的是燃料。所有 d20 擲骰 <strong>−2</strong>。</p>
+<p><strong>受傷</strong>：這下真的痛了。還不足以讓你停下來，但確實很痛。所有 <strong>d20 擲骰 −4</strong>。</p>
+<p><strong>重傷</strong>：該開始擔心了。處於重傷的角色，所有 <strong>d20 擲骰</strong>都承受<strong>劣勢</strong>。</p>
+<p><strong>敗北</strong>：這位英雄已經退出戰鬥，任憑主編處置。他的命運將由故事的走向來決定。</p>
+<h3 id="_24">在沒有決心值的情況下戰鬥<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h3>
+<p>當決心值耗盡時，角色變為<strong>易傷</strong>：若他承受 <strong>1 點以上的傷害</strong>，就必須標記一格<strong>傷勢</strong>。此外，處於易傷狀態時，每承受十的倍數的傷害，就多標記一格傷勢。</p>
+<p>若有疑問，請參照下表：</p>
+<table>
+<thead>
+<tr>
+<th><strong>傷害量</strong></th>
+<th><strong>標記傷勢格數</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1–10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>11–20</td>
+<td>2</td>
+</tr>
+<tr>
+<td>21–30</td>
+<td>3</td>
+</tr>
+<tr>
+<td>31–40</td>
+<td>4</td>
+</tr>
+<tr>
+<td>41+</td>
+<td>敗北</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition example">
+<p><strong>範例</strong>：<strong>夜翼</strong>的決心值已經見底，這代表他變為<strong>易傷</strong>。他與泰坦們正在對付的金屬哨兵送出一記強力打擊，造成 <strong>5 點傷害</strong>。夜翼標記<strong>一格傷勢</strong>。那一下真的痛！</p>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到頂端
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="頁腳" >
+        
+          
+          <a href="../../abilities/equipment/" class="md-footer__link md-footer__link--prev" aria-label="上一頁: 裝備">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一頁
+              </span>
+              <div class="md-ellipsis">
+                裝備
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../actions/" class="md-footer__link md-footer__link--next" aria-label="下一頁: 狀態、移動與戰鬥動作">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一頁
+              </span>
+              <div class="md-ellipsis">
+                狀態、移動與戰鬥動作
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.sections", "navigation.footer", "search.highlight", "search.suggest", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u8907\u88fd", "clipboard.copy": "\u8907\u88fd", "search.result.more.one": "\u6b64\u9801\u5c1a\u6709 1 \u500b\u7b26\u5408\u7684\u9805\u76ee", "search.result.more.other": "\u6b64\u9801\u5c1a\u6709 # \u500b\u7b26\u5408\u7684\u9805\u76ee", "search.result.none": "\u6c92\u6709\u7b26\u5408\u7684\u9805\u76ee", "search.result.one": "\u627e\u5230 1 \u500b\u7b26\u5408\u7684\u9805\u76ee", "search.result.other": "\u627e\u5230 # \u500b\u7b26\u5408\u7684\u9805\u76ee", "search.result.placeholder": "\u6253\u5b57\u9032\u884c\u641c\u5c0b", "search.result.term.missing": "\u7f3a\u5c11\u5b57\u8a5e", "select.version": "\u9078\u64c7\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/hero-sheet.js"></script>
+      
+    
+  </body>
+</html>

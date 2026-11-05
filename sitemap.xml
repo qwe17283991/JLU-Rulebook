@@ -1,3 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://jlurulebook.com/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/glossary/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/glossary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/glossary/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/hero-sheet/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/hero-sheet/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/hero-sheet/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/intro/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/intro/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/intro/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/story-points/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/story-points/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/story-points/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/threats-villains/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/threats-villains/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/threats-villains/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/abilities/equipment/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/abilities/equipment/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/abilities/equipment/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/abilities/martial-arts/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/abilities/martial-arts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/abilities/martial-arts/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/abilities/overview/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/abilities/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/abilities/overview/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/abilities/powers/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/abilities/powers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/abilities/powers/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/abilities/technology/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/abilities/technology/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/abilities/technology/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/character/archetypes/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/character/archetypes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/character/archetypes/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/character/origins/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/character/origins/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/character/origins/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/character/rank-pax-attributes/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/character/rank-pax-attributes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/character/rank-pax-attributes/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/combat/actions/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/combat/actions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/combat/actions/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/combat/basics/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/combat/basics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/combat/basics/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/traits/knowledge/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/traits/knowledge/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/traits/knowledge/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/traits/limitations/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/traits/limitations/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/traits/limitations/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/traits/qualities/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/traits/qualities/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/traits/qualities/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/glossary/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/glossary/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/glossary/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/hero-sheet/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/hero-sheet/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/hero-sheet/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/intro/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/intro/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/intro/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/story-points/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/story-points/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/story-points/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/threats-villains/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/threats-villains/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/threats-villains/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/abilities/equipment/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/abilities/equipment/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/abilities/equipment/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/abilities/martial-arts/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/abilities/martial-arts/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/abilities/martial-arts/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/abilities/overview/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/abilities/overview/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/abilities/overview/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/abilities/powers/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/abilities/powers/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/abilities/powers/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/abilities/technology/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/abilities/technology/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/abilities/technology/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/character/archetypes/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/character/archetypes/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/character/archetypes/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/character/origins/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/character/origins/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/character/origins/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/character/rank-pax-attributes/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/character/rank-pax-attributes/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/character/rank-pax-attributes/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/combat/actions/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/combat/actions/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/combat/actions/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/combat/basics/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/combat/basics/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/combat/basics/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/traits/knowledge/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/traits/knowledge/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/traits/knowledge/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/traits/limitations/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/traits/limitations/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/traits/limitations/"/>
+    </url>
+    <url>
+        <loc>https://jlurulebook.com/en/traits/qualities/</loc>
+        <lastmod>2026-11-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jlurulebook.com/en/traits/qualities/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://jlurulebook.com/traits/qualities/"/>
+    </url>
 </urlset>

@@ -1,0 +1,106 @@
+/* 線上英雄卡（只作用在 .hs 容器內） */
+.hs, .hs * { white-space: normal; }
+.hs { font-size: .8rem; }
+
+.hs-summary {
+  position: sticky;
+  top: 3rem;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .4rem 1rem;
+  padding: .6rem .8rem;
+  margin-bottom: .8rem;
+  background: var(--jlu-panel, var(--md-default-bg-color));
+  border: 3px solid var(--jlu-line, currentColor);
+  border-left-width: 10px;
+  border-left-color: var(--jlu-yellow, var(--md-primary-fg-color));
+  box-shadow: 4px 4px 0 var(--jlu-shadow, transparent);
+}
+.hs-summary.hs-over { border-left-color: var(--jlu-red, #e53935); }
+.hs-over .hs-left { color: #e53935; }
+.hs-pax { font-size: 1rem; font-family: var(--jlu-heavy, inherit); font-weight: 900; }
+.hs-break { color: var(--md-default-fg-color--light); font-size: .7rem; }
+.hs-actions { margin-left: auto; display: flex; flex-wrap: wrap; gap: .4rem; }
+.hs .md-button { margin: 0; padding: .3em 1em; font-size: .75rem; cursor: pointer; }
+
+.hs-warn {
+  padding: .5rem .8rem;
+  margin-bottom: .8rem;
+  border: 2px dashed var(--jlu-line, currentColor);
+  background: var(--jlu-caption, var(--md-code-bg-color));
+}
+.hs-warn ul { margin: .3rem 0 0; }
+.hs-warn li { margin: 0; }
+
+.hs-card {
+  padding: .2rem 1rem .8rem;
+  margin-bottom: 1.4rem;
+  background: var(--jlu-panel, transparent);
+  border: 3px solid var(--jlu-line, currentColor);
+  box-shadow: 5px 5px 0 var(--jlu-shadow, transparent);
+}
+.md-typeset .hs-card h2 { font-size: 1.05rem; margin: -.9rem 0 .7rem -.4rem; }
+.md-typeset .hs-card h3 { font-size: .9rem; margin: .8rem 0 .3rem; }
+.hs-note { margin: .4rem 0; color: var(--md-default-fg-color--light); }
+.md-typeset .hs-list { margin: .2rem 0 .4rem; }
+
+.hs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); gap: .6rem; }
+.hs-grid .hs-wide { grid-column: 1 / -1; }
+.hs label { display: flex; flex-direction: column; gap: .2rem; font-weight: 600; }
+.hs label small { font-weight: 400; color: var(--md-default-fg-color--light); }
+
+.hs input[type="text"], .hs input[type="number"], .hs select, .hs textarea {
+  font: inherit;
+  font-weight: 400;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 2px solid var(--jlu-line, var(--md-default-fg-color--lighter));
+  border-radius: 0;
+  padding: .3rem .4rem;
+  min-width: 0;
+}
+.hs textarea { width: 100%; box-sizing: border-box; }
+.hs input[type="number"] { width: 6rem; }
+.hs input:focus, .hs select:focus, .hs textarea:focus { outline: 2px solid var(--md-accent-fg-color); outline-offset: 0; }
+
+.hs-checks { display: flex; flex-wrap: wrap; gap: .3rem 1rem; }
+.hs label.hs-check { flex-direction: row; align-items: center; gap: .3rem; font-weight: 400; }
+.hs-check small { margin-left: .1rem; }
+
+.hs-row { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+.hs-row label { flex-direction: row; align-items: center; }
+.hs-row input[type="text"] { flex: 1 1 10rem; }
+.hs-ability, .hs-weapon {
+  padding: .5rem 0;
+  border-bottom: 1px dashed var(--md-default-fg-color--lightest);
+}
+.hs-ability { margin-bottom: .2rem; }
+.hs-sub { display: flex; flex-wrap: wrap; gap: .3rem 1rem; margin: .4rem 0 0 .5rem; }
+.hs-sub > span { font-weight: 600; }
+.hs-cost { font-weight: 700; min-width: 4rem; text-align: right; }
+.hs-del {
+  border: 0; background: none; cursor: pointer;
+  color: var(--md-default-fg-color--light); font-size: .9rem; padding: .2rem .4rem;
+}
+.hs-del:hover { color: #e53935; }
+.hs-card > .md-button { margin-top: .6rem; }
+
+.hs-stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: .6rem; }
+.hs-stat {
+  display: flex; flex-direction: column;
+  padding: .5rem .6rem;
+  background: var(--jlu-caption, var(--md-code-bg-color));
+  border: 2px solid var(--jlu-line, transparent);
+  box-shadow: 3px 3px 0 var(--jlu-shadow, transparent);
+}
+.hs-stat span { font-size: .7rem; color: var(--md-default-fg-color--light); }
+.hs-stat b { font-family: var(--jlu-display, inherit); font-size: 1.7rem; font-weight: 400; letter-spacing: .04em; line-height: 1.2; }
+.hs-stat small { font-size: .62rem; color: var(--md-default-fg-color--light); }
+
+@media screen and (max-width: 44.9375em) {
+  .hs-summary { position: static; }
+  .hs-actions { margin-left: 0; }
+  .hs-row select { max-width: 100%; }
+}
