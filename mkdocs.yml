@@ -12,7 +12,6 @@ theme:
     code: JetBrains Mono
   features:
     - navigation.tabs # 在畫面上方加入導航頁籤
-    - navigation.instant
     - navigation.top # 加入「回到最上方」按鈕
     - navigation.sections
     - navigation.footer
@@ -66,6 +65,45 @@ plugins:
   - search:
       lang: zh
       jieba_dict_user: includes/jieba-dict.txt # 讓「危機骰」等術語不被拆開
+  - i18n:
+      docs_structure: suffix # 英文頁面為 *.en.md，網址在 /en/ 底下
+      fallback_to_default: true # 沒有英文版的頁面（專有名詞表、英雄卡）顯示中文
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: zh-TW
+          name: 中文
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: JLU Rulebook | DC Superhero TRPG Quickstart
+          site_description: Justice League Unlimited RPG Quickstart rules in English and Traditional Chinese, with character creation, superpowers, combat and an online hero sheet.
+          nav_translations:
+            首頁: Home
+            導論與核心概念: Introduction
+            劇情點與編輯點與危機骰: Plot Points & Crisis Die
+            角色創建: Character Creation
+            位階、PAX與屬性: Tier, PAX & Attributes
+            出身: Origins
+            原型: Archetypes
+            知識、特質與限制: Knowledge, Traits & Limitations
+            知識: Knowledge
+            特質: Traits
+            限制: Limitations
+            能力與裝備: Powers & Equipment
+            能力總則: Powers Overview
+            武術訓練: Martial Training
+            超能力: Superpowers
+            科技: Technology
+            裝備: Equipment
+            戰鬥與判定: Tests & Combat
+            檢定與戰鬥基礎: Tests & Combat Basics
+            狀態、移動與戰鬥動作: Status, Movement & Actions
+            威脅與反派: Threats & Villains
+            專有名詞對應表: Glossary (中英對照)
+            線上英雄卡: Hero Sheet (中文)
   - redirects:
       redirect_maps:
         JLU_譯文_01_導論與核心概念.md: intro.md
