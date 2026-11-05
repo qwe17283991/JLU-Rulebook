@@ -1,5 +1,6 @@
 ---
-description: JLU RPG character creation: the seven steps, Hero Tier, PAX and the six Attributes.
+description: "JLU RPG character creation: the seven steps, Hero Tier, PAX and the six Attributes."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, character creation, Hero Tier, PAX, Ascension Points, Attributes"
 ---
 
 # Character Creation: Tier, PAX & Attributes

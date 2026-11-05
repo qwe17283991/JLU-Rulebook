@@ -1,5 +1,6 @@
 ---
-description: JLU 限制規則：弱點、恐懼與行為準則，為超級英雄加入機制代價與故事鉤子。
+description: "JLU 限制規則：弱點、恐懼與行為準則，為超級英雄加入機制代價與故事鉤子。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 限制, 弱點, 缺陷, 無效化, 衰弱, 禁制"
 ---
 
 # 限制（LIMITATIONS）

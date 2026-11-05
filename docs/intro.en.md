@@ -1,5 +1,6 @@
 ---
-description: Introduction to the JLU RPG Quickstart: what the game is, the dice, the Editor, the Heroes and core concepts such as Resolve and Conditions.
+description: "Introduction to the JLU RPG Quickstart: what the game is, the dice, the Editor, the Heroes and core concepts such as Resolve and Conditions."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, introduction, core concepts, Resolve, Conditions, Editor, dice"
 ---
 
 # Introduction & Core Concepts

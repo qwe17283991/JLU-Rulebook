@@ -1,5 +1,6 @@
 ---
-description: JLU 武術訓練：武術大師、劍士與神射手三類技法，打造不靠超能力的戰鬥英雄。
+description: "JLU 武術訓練：武術大師、劍士與神射手三類技法，打造不靠超能力的戰鬥英雄。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 武術訓練, 劍士, 武術大師, 神射手, 技法"
 ---
 
 # 武術訓練

@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Limitations: Vulnerability, Weakness, Nullification, Debilitation and Impossibility.
+description: "JLU RPG Limitations: Vulnerability, Weakness, Nullification, Debilitation and Impossibility."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Limitations, Vulnerability, Weakness, Nullification, Debilitation, Impossibility"
 ---
 
 # LIMITATIONS

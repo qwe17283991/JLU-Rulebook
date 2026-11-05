@@ -1,5 +1,6 @@
 ---
-description: JLU 規則書導論：認識 DC 超級英雄 TRPG《正義聯盟無限 RPG》的核心概念、決心值與基本擲骰機制。
+description: "JLU 規則書導論：認識 DC 超級英雄 TRPG《正義聯盟無限 RPG》的核心概念、決心值與基本擲骰機制。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 導論, 核心概念, 決心值, 傷勢, 主編, 擲骰"
 ---
 
 # 導論與核心概念

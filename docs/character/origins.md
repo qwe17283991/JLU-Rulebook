@@ -1,5 +1,6 @@
 ---
-description: JLU 英雄出身：亞馬遜人、人類、氪星人與超人類的能力組合與專屬裝備。
+description: "JLU 英雄出身：亞馬遜人、人類、氪星人與超人類的能力組合與專屬裝備。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 出身, 亞馬遜人, 人類, 氪星人, 超人類, 能力組合"
 ---
 
 # 出身（Origin）

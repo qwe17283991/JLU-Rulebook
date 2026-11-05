@@ -4,6 +4,7 @@ site_description: DC 超級英雄主題 TRPG 的中文翻譯規則書，包含�
 
 theme:
   name: material
+  custom_dir: overrides # SEO：keywords、分享預覽、結構化資料
   logo: assets/logo.png      # 網頁左上角的 Logo
   favicon: assets/logo.png   # 瀏覽器分頁的小圖標
   language: zh-TW # 設定語言為繁體中文
@@ -143,6 +144,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  site_root: https://jlurulebook.com/
+  social_image: https://jlurulebook.com/assets/social-card.png
 
 extra_css:
   - stylesheets/extra.css

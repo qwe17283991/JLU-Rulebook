@@ -1,5 +1,6 @@
 ---
-description: JLU RPG tests and combat basics: rolling the dice, Tension, opposed tests, Resolve, Defense, damage and Conditions.
+description: "JLU RPG tests and combat basics: rolling the dice, Tension, opposed tests, Resolve, Defense, damage and Conditions."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Tests, combat rules, d20, Tension, Advantage, Disadvantage, opposed test, damage, Defense"
 ---
 
 # Tests & Combat Basics

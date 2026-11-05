@@ -1,8 +1,9 @@
-﻿---
+---
 hide:
   - navigation
   - toc
-description: JLU 規則書是 DC 超級英雄主題 TRPG《Justice League Unlimited RPG》的中文翻譯，收錄角色創建、超能力、戰鬥判定與專有名詞對照，供跑團玩家與 GM 快速查閱。
+description: "JLU 規則書是 DC 超級英雄主題 TRPG《Justice League Unlimited RPG》的中文翻譯，收錄角色創建、超能力、戰鬥判定與專有名詞對照，供跑團玩家與 GM 快速查閱。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, DC TRPG, 超級英雄跑團, 快速入門, 規則書中文版"
 ---
 
 <div class="jlu-hero" markdown>

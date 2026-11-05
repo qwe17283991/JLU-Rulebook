@@ -1,5 +1,6 @@
 ---
-description: JLU 特質規則：資源、人脈、名聲與祕密身分等能力之外的英雄特色。
+description: "JLU 特質規則：資源、人脈、名聲與祕密身分等能力之外的英雄特色。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 特質, 秘密身分, 所屬勢力, 硬漢, 招牌台詞"
 ---
 
 # 特質（TRAITS）

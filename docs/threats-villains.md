@@ -1,5 +1,6 @@
 ---
-description: JLU 威脅與反派：DC 宇宙的嘍囉、威脅與反派數據，供主編（GM）帶團使用。
+description: "JLU 威脅與反派：DC 宇宙的嘍囉、威脅與反派數據，供主編（GM）帶團使用。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 威脅, 反派, 嘍囉, 敵人數據, 主編角色"
 ---
 
 # 威脅與反派（THREATS AND VILLAINS）

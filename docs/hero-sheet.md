@@ -1,8 +1,9 @@
 ---
-description: JLU 線上英雄卡：依 DC 超級英雄 TRPG 規則建立角色，自動計算 PAX、決心值與防禦，並可匯出成 Excel 帶去跑團。
+description: "JLU 線上英雄卡：依 DC 超級英雄 TRPG 規則建立角色，自動計算 PAX、決心值與防禦，並可匯出成 Excel 帶去跑團。"
 hide:
   - navigation
   - toc
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 線上英雄卡, 角色卡, 英雄卡, 建卡工具, 角色產生器, Excel"
 ---
 
 # 線上英雄卡

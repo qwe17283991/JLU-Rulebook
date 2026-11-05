@@ -1,5 +1,6 @@
 ---
-description: JLU 科技能力：外骨骼與科技球體，讓天才發明家與超人並肩作戰。
+description: "JLU 科技能力：外骨骼與科技球體，讓天才發明家與超人並肩作戰。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 科技, 外骨骼, 科技球體, 改裝"
 ---
 
 # 科技（TECHNOLOGY）

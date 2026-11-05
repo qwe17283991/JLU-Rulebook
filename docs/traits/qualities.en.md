@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Traits: simple traits such as Secret Identity, Contacts and Tough Guy.
+description: "JLU RPG Traits: simple traits such as Secret Identity, Contacts and Tough Guy."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Traits, Secret Identity, Affiliation, Tough Guy, Catchphrase"
 ---
 
 # TRAITS

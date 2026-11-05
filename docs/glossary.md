@@ -1,5 +1,6 @@
 ---
-description: JLU 專有名詞對應表：DC 超級英雄 TRPG 中英術語對照，統一跑團用語。
+description: "JLU 專有名詞對應表：DC 超級英雄 TRPG 中英術語對照，統一跑團用語。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 專有名詞, 中英對照, 術語表, 翻譯對照"
 ---
 
 # 《DC Justice League Unlimited RPG — Quickstart》專有名詞對應表 v2

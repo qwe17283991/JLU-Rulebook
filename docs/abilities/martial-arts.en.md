@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Martial Training: Swordsman, Martial Master and Marksman techniques.
+description: "JLU RPG Martial Training: Swordsman, Martial Master and Marksman techniques."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Martial Training, Swordsman, Martial Master, Marksman, techniques"
 ---
 
 # MARTIAL TRAINING

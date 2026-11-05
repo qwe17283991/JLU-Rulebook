@@ -1,5 +1,6 @@
 ---
-description: JLU 角色創建規則：七個步驟、位階、PAX 與屬性設定，打造你的 DC 超級英雄。
+description: "JLU 角色創建規則：七個步驟、位階、PAX 與屬性設定，打造你的 DC 超級英雄。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 角色創建, 建卡, 位階, PAX, 晉升點, 屬性"
 ---
 
 # 角色創建：位階、PAX 與屬性

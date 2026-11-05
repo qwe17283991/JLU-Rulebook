@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Equipment: melee and ranged weapons, special materials and gear.
+description: "JLU RPG Equipment: melee and ranged weapons, special materials and gear."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Equipment, weapons, melee weapons, ranged weapons, Kryptonite, gear"
 ---
 
 # EQUIPMENT

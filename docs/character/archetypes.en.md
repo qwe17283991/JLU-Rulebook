@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Archetypes: Champion of Tomorrow, Dark Knight, Genius and Enraged.
+description: "JLU RPG Archetypes: Champion of Tomorrow, Dark Knight, Genius and Enraged."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Archetypes, Champion of Tomorrow, Dark Knight, Genius, Enraged"
 ---
 
 # ARCHETYPES

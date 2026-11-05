@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Knowledge: Acrobatics, Subterfuge, Tech and Strategy.
+description: "JLU RPG Knowledge: Acrobatics, Subterfuge, Tech and Strategy."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Knowledge, Acrobatics, Subterfuge, Tech, Strategy"
 ---
 
 # KNOWLEDGE

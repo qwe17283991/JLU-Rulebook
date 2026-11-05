@@ -1,5 +1,6 @@
 ---
-description: JLU 裝備規則：近戰武器、遠程武器、隨身道具與氪石等特殊物品。
+description: "JLU 裝備規則：近戰武器、遠程武器、隨身道具與氪石等特殊物品。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 裝備, 武器, 近戰武器, 遠程武器, 氪石, 隨身道具"
 ---
 
 # 裝備（EQUIPMENT）

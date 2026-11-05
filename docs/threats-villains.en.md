@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Threats and Villains: stat blocks for henchmen, threats and villains of the DC Universe.
+description: "JLU RPG Threats and Villains: stat blocks for henchmen, threats and villains of the DC Universe."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Threats, Villains, henchmen, stat blocks, Editor Characters"
 ---
 
 # THREATS AND VILLAINS

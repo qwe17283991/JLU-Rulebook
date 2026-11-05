@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Superpowers: Flight, Speed Force, Super Strength, Force Field, Teleportation and more.
+description: "JLU RPG Superpowers: Flight, Speed Force, Super Strength, Force Field, Teleportation and more."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Superpowers, Flight, Speed Force, Super Strength, Force Field, Teleportation, Energy Blast, Elemental Manipulation"
 ---
 
 # SUPERPOWERS

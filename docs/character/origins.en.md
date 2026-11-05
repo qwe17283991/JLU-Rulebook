@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Origins: Amazon, Human, Kryptonian and Meta-Human power kits and features.
+description: "JLU RPG Origins: Amazon, Human, Kryptonian and Meta-Human power kits and features."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Origins, Amazon, Human, Kryptonian, Meta-Human, power kit"
 ---
 
 # ORIGIN

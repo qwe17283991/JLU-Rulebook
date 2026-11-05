@@ -1,5 +1,6 @@
 ---
-description: JLU 英雄原型：明日鬥士、黑暗騎士、天才與狂怒者，決定你的英雄為何而戰。
+description: "JLU 英雄原型：明日鬥士、黑暗騎士、天才與狂怒者，決定你的英雄為何而戰。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 原型, 明日鬥士, 黑暗騎士, 天才, 狂怒者"
 ---
 
 # 原型（Archetypes）

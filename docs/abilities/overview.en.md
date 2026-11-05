@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Powers overview: acquiring and using powers, Grades and power categories.
+description: "JLU RPG Powers overview: acquiring and using powers, Grades and power categories."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Powers, Grades, power categories, Resolve cost"
 ---
 
 # POWERS

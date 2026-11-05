@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Technology: Exoskeleton and Technological Spheres.
+description: "JLU RPG Technology: Exoskeleton and Technological Spheres."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Technology, Exoskeleton, Technological Spheres, modifications"
 ---
 
 # TECHNOLOGY

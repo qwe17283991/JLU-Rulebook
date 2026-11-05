@@ -1,5 +1,6 @@
 ---
-description: JLU RPG Status, movement and combat actions, the Doomsday Clock, Heroic Actions, recovery and death.
+description: "JLU RPG Status, movement and combat actions, the Doomsday Clock, Heroic Actions, recovery and death."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Status, movement, combat actions, Doomsday Clock, Heroic Actions, recovery, death"
 ---
 
 # Status, Movement & Combat Actions

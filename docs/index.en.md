@@ -2,7 +2,8 @@
 hide:
   - navigation
   - toc
-description: The Justice League Unlimited RPG Quickstart rules in English, side by side with a full Traditional Chinese translation. Character creation, superpowers, tests and combat for DC superhero tabletop roleplaying.
+description: "The Justice League Unlimited RPG Quickstart rules in English, side by side with a full Traditional Chinese translation. Character creation, superpowers, tests and combat for DC superhero tabletop roleplaying."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, DC RPG, superhero RPG, JLU quickstart, Traditional Chinese translation"
 ---
 
 <div class="jlu-hero" markdown>

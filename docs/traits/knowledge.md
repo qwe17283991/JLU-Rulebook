@@ -1,5 +1,6 @@
 ---
-description: JLU 知識規則：特技、詭計、科技與戰略四大領域，每項 4 PAX 取得的專業招式。
+description: "JLU 知識規則：特技、詭計、科技與戰略四大領域，每項 4 PAX 取得的專業招式。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 知識, 特技, 詭計, 科技知識, 戰略"
 ---
 
 # 知識（KNOWLEDGE）

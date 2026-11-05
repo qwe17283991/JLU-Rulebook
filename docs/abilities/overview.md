@@ -1,5 +1,6 @@
 ---
-description: JLU 能力總則：如何取得與使用能力、等級與 PAX 花費，以及能力說明的閱讀方式。
+description: "JLU 能力總則：如何取得與使用能力、等級與 PAX 花費，以及能力說明的閱讀方式。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 能力, 能力總則, 等級, 招式, 決心消耗"
 ---
 
 # 能力總則

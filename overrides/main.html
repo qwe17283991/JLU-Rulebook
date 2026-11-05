@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{#
+  SEO 補充：keywords、Open Graph（Plurk／Facebook／Discord 分享預覽）、Twitter 卡片、結構化資料。
+  每頁的 description 與 keywords 寫在 Markdown 的 front matter 裡。
+#}
+{% block extrahead %}
+  {%- set is_en = config.theme.language == "en" -%}
+  {%- set meta = page.meta if page and page.meta else {} -%}
+  {%- set desc = meta.description or config.site_description -%}
+  {%- if page and page.is_homepage -%}
+    {%- set share_title = config.site_name -%}
+  {%- else -%}
+    {%- set share_title = (page.title | striptags) ~ " | " ~ config.site_name -%}
+  {%- endif -%}
+  {%- set image = config.extra.social_image -%}
+
+  {% if meta.keywords %}
+  <meta name="keywords" content="{{ meta.keywords }}">
+  {% endif %}
+
+  <meta property="og:type" content="{{ 'website' if page.is_homepage else 'article' }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ share_title }}">
+  <meta property="og:description" content="{{ desc }}">
+  {% if page.canonical_url %}<meta property="og:url" content="{{ page.canonical_url }}">{% endif %}
+  <meta property="og:locale" content="{{ 'en_US' if is_en else 'zh_TW' }}">
+  <meta property="og:locale:alternate" content="{{ 'zh_TW' if is_en else 'en_US' }}">
+  <meta property="og:image" content="{{ image }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ 'JLU Rulebook: DC superhero tabletop RPG' if is_en else 'JLU 規則書：DC 超級英雄 TRPG 中文規則' }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ share_title }}">
+  <meta name="twitter:description" content="{{ desc }}">
+  <meta name="twitter:image" content="{{ image }}">
+
+  {%- set ld = {
+    "@context": "https://schema.org",
+    "@type": "WebSite" if page.is_homepage else "WebPage",
+    "name": share_title,
+    "description": desc,
+    "url": page.canonical_url or (config.extra.site_root ~ ("en/" if is_en else "")),
+    "inLanguage": "en" if is_en else "zh-Hant-TW",
+    "image": image,
+    "about": {"@type": "Game", "name": "Justice League Unlimited RPG"},
+    "isPartOf": {"@type": "WebSite", "name": config.site_name, "url": config.extra.site_root ~ ("en/" if is_en else "")},
+  } -%}
+  {%- if meta.keywords -%}{%- set _ = ld.update({"keywords": meta.keywords}) -%}{%- endif %}
+  <script type="application/ld+json">{{ ld | tojson }}</script>
+{% endblock %}

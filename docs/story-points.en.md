@@ -1,5 +1,6 @@
 ---
-description: JLU RPG rules for Plot Points, Editorial Points and the Crisis Die: how players bend the story and how the Editor fights back.
+description: "JLU RPG rules for Plot Points, Editorial Points and the Crisis Die: how players bend the story and how the Editor fights back."
+keywords: "JLU RPG, Justice League Unlimited RPG, DC, superhero, TTRPG, tabletop roleplaying game, quickstart rules, Plot Points, Editorial Points, Crisis Die, Editorial Complication"
 ---
 
 # Plot Points, Editorial Points & the Crisis Die

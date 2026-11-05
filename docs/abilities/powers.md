@@ -1,5 +1,6 @@
 ---
-description: JLU 超能力一覽：飛行、神速力、超級神力、力場、瞬間移動等超級英雄能力規則。
+description: "JLU 超能力一覽：飛行、神速力、超級神力、力場、瞬間移動等超級英雄能力規則。"
+keywords: "JLU, 正義聯盟無限, Justice League Unlimited RPG, DC, 超級英雄, TRPG, 跑團, 桌上角色扮演遊戲, 規則書, 中文翻譯, 超能力, 飛行, 神速力, 超級神力, 力場, 瞬間移動, 能量衝擊, 元素操控"
 ---
 
 # 超能力（SUPERPOWERS）
