@@ -1,10 +1,25 @@
 ﻿---
+hide:
+  - navigation
+  - toc
 description: JLU 規則書是 DC 超級英雄主題 TRPG《Justice League Unlimited RPG》的中文翻譯，收錄角色創建、超能力、戰鬥判定與專有名詞對照，供跑團玩家與 GM 快速查閱。
 ---
+
+<div class="jlu-hero" markdown>
+
+<div class="jlu-burst" aria-hidden="true"><svg viewBox="0 0 200 200">
+  <polygon points="100.0,4.0 116.0,29.8 141.7,13.5 138.7,51.5 175.1,40.1 164.9,68.8 193.6,78.6 162.0,100.0 193.6,121.4 164.9,131.2 175.1,159.9 138.7,148.5 141.7,186.5 116.0,170.2 100.0,196.0 86.2,160.4 58.3,186.5 55.1,156.3 24.9,159.9 44.1,126.9 6.4,121.4 28.0,100.0 6.4,78.6 44.1,73.1 24.9,40.1 55.1,43.7 58.3,13.5 86.2,39.6" fill="#e23131" stroke="#141414" stroke-width="5" stroke-linejoin="round"/>
+  <text x="100" y="98" text-anchor="middle" font-family="Bangers, Impact, sans-serif" font-size="58" fill="#ffd23f" stroke="#141414" stroke-width="4" paint-order="stroke" letter-spacing="2">JLU!</text>
+  <text x="100" y="132" text-anchor="middle" font-family="Noto Sans TC, sans-serif" font-weight="900" font-size="22" fill="#fff" stroke="#141414" stroke-width="3" paint-order="stroke">中文規則</text>
+</svg></div>
+
+<p class="jlu-kicker">JUSTICE LEAGUE UNLIMITED RPG</p>
 
 # 歡迎來到 JLU 規則書
 
 這裡是 **DC 超級英雄** 主題 **TRPG**（桌上角色扮演遊戲）《Justice League Unlimited RPG》的中文翻譯規則書。無論你是第一次接觸跑團的新手玩家，還是準備帶團的主編（GM），都能在這裡查到角色創建、超能力、檢定與戰鬥判定等完整規則，以及中英專有名詞對照。
+
+</div>
 
 <div class="grid cards" markdown>
 

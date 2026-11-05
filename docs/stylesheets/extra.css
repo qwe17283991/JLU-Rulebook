@@ -19,25 +19,6 @@
   height: 1.6rem;
   width: auto;
 }
-/* 標題層級：全部加粗，大小逐級遞減且不小於內文 */
-.md-typeset h1, .md-typeset h2,
-.md-typeset h3, .md-typeset h4,
-.md-typeset h5, .md-typeset h6 {
-  font-weight: 700;
-  color: var(--md-default-fg-color);
-  text-transform: none;
-}
-.md-typeset h1 { font-size: 2em; }
-.md-typeset h2 {
-  font-size: 1.6em;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  padding-bottom: .2em;
-}
-.md-typeset h3 { font-size: 1.35em; }
-.md-typeset h4 { font-size: 1.15em; }
-.md-typeset h5 { font-size: 1.05em; }
-.md-typeset h6 { font-size: 1em; color: var(--md-default-fg-color--light); }
-
 /* 規則框內文與正文同大（Material 預設會縮小，中文不易閱讀） */
 .md-typeset .admonition,
 .md-typeset details {
