@@ -60,6 +60,7 @@ nav:
       - 狀態、移動與戰鬥動作: combat/actions.md
   - 威脅與反派: threats-villains.md
   - 專有名詞對應表: glossary.md
+  - 線上英雄卡: hero-sheet.md
 
 plugins:
   - search:
@@ -107,3 +108,7 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/hero-sheet.css
+
+extra_javascript:
+  - javascripts/hero-sheet.js

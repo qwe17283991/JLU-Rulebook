@@ -32,6 +32,14 @@ description: JLU 規則書是 DC 超級英雄主題 TRPG《Justice League Unlimi
 
     [:octicons-arrow-right-24: 檢定與戰鬥基礎](combat/basics.md)
 
+-   :material-card-account-details:{ .lg .middle } **線上英雄卡**
+
+    ---
+
+    照規則一步步建卡，自動計算 PAX 與戰鬥數值，可匯出 Excel。
+
+    [:octicons-arrow-right-24: 開始建卡](hero-sheet.md)
+
 </div>
 
 !!! note "譯者聲明 / 關於本專案"
