@@ -1,11 +1,38 @@
-﻿# 歡迎來到 JLU 規則書
+﻿---
+description: JLU 規則書是 DC 超級英雄主題 TRPG《Justice League Unlimited RPG》的中文翻譯，收錄角色創建、超能力、戰鬥判定與專有名詞對照，供跑團玩家與 GM 快速查閱。
+---
 
-這裡是 JLU TRPG 系統的中文規則彙整網站。本網站旨在提供最便利的查閱體驗，讓玩家與主持人能快速確認規則細節。
+# 歡迎來到 JLU 規則書
 
-## 快速導覽
-* **新手上路**：請先閱讀 [導論與核心概念](intro.md)，了解遊戲的基本運作。
-* **打造英雄**：準備好後，前往 [角色創建](character/rank-pax-attributes.md) 設計你的超級英雄與專屬能力。
-* **進入戰場**：需要確認戰略區域、移動限制或危機骰運作時，請隨時使用右上角的**搜尋功能**，或查閱 [檢定與戰鬥基礎](combat/basics.md)。
+這裡是 **DC 超級英雄** 主題 **TRPG**（桌上角色扮演遊戲）《Justice League Unlimited RPG》的中文翻譯規則書。無論你是第一次接觸跑團的新手玩家，還是準備帶團的主編（GM），都能在這裡查到角色創建、超能力、檢定與戰鬥判定等完整規則，以及中英專有名詞對照。
+
+<div class="grid cards" markdown>
+
+-   :material-book-open-page-variant:{ .lg .middle } **新手上路**
+
+    ---
+
+    先了解遊戲的基本運作與核心概念，再開始你的第一場跑團。
+
+    [:octicons-arrow-right-24: 導論與核心概念](intro.md)
+
+-   :material-account-star:{ .lg .middle } **打造英雄**
+
+    ---
+
+    決定位階、分配 PAX 與屬性，設計你專屬的超級英雄。
+
+    [:octicons-arrow-right-24: 角色創建](character/rank-pax-attributes.md)
+
+-   :material-sword-cross:{ .lg .middle } **進入戰場**
+
+    ---
+
+    檢定、優勢與劣勢、攻擊與防禦，帶團時隨時查閱。
+
+    [:octicons-arrow-right-24: 檢定與戰鬥基礎](combat/basics.md)
+
+</div>
 
 !!! note "譯者聲明 / 關於本專案"
     大家好，我是譯者 **角鴞**。
@@ -16,4 +43,5 @@
 
     👉 **聯絡與交流 Discord：** [點此與譯者聯繫](https://discord.gg/jHGHEvGN)
 
-> **提示：** 本網站支援深色模式切換與全站關鍵字搜尋，請多加利用！
+!!! tip "使用提示"
+    本網站支援深色模式切換與全站關鍵字搜尋，查規則時可以直接搜尋「危機骰」「超能力」等術語。

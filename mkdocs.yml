@@ -95,6 +95,9 @@ markdown_extensions:
       permalink: true
   - nl2br # 保留：譯文依賴單行換行
   - pymdownx.details
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary-abbr.md
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
