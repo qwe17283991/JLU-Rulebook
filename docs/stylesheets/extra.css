@@ -37,3 +37,9 @@
 .md-typeset h4 { font-size: 1.15em; }
 .md-typeset h5 { font-size: 1.05em; }
 .md-typeset h6 { font-size: 1em; color: var(--md-default-fg-color--light); }
+
+/* 規則框內文與正文同大（Material 預設會縮小，中文不易閱讀） */
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: .8rem;
+}
