@@ -1,3 +1,7 @@
+---
+description: JLU 專有名詞對應表：DC 超級英雄 TRPG 中英術語對照，統一跑團用語。
+---
+
 # 《DC Justice League Unlimited RPG — Quickstart》專有名詞對應表 v2
 
 **已定案基準**：Issue＝期｜Resolve＝決心值｜Condition＝傷勢／Status＝狀態｜Tier＝位階／Grade＝等級｜Potency＝力量｜PAX 保留原文｜Meta-Human＝超人類｜Eradicator＝殲滅者｜Parasite＝寄生魔
